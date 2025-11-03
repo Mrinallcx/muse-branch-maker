@@ -36,9 +36,9 @@ const HowItWorks = () => {
             <Card key={index} className="bg-white/20 backdrop-blur-sm border-white/30 text-center hover:bg-white/25 transition-colors">
               <CardContent className="pt-10 pb-10">
                 <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                  <step.icon className="h-10 w-10 text-primary" />
+                  <step.icon className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-white">{step.title}</h3>
                 <p className="text-primary-foreground/80 leading-relaxed">
                   {step.description}
                 </p>
