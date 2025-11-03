@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/60 to-accent/50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/80 to-accent/70" />
       </div>
       
       <div className="container mx-auto px-4 relative z-10 py-32">
