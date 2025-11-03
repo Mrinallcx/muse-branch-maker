@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Phone, Clock } from "lucide-react";
-import heroImage from "@/assets/hero-flight.jpg";
+import heroImage from "@/assets/jumbo-jet-flying-sky.jpg";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-accent/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/20" />
       </div>
       
       <div className="container mx-auto px-4 relative z-10 py-32">
