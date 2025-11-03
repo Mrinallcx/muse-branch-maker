@@ -51,8 +51,8 @@ const HowItWorks = () => {
           <p className="text-lg mb-6">
             ¿Listo para reservar tu próximo vuelo? Nuestros expertos en viajes están esperando tu llamada.
           </p>
-          <Button size="lg" variant="secondary">
-            Llama al +1 (888) 291-6115 Ahora
+          <Button size="lg" variant="secondary" asChild>
+            <a href="tel:+18882916115">Llama al +1 (888) 291-6115 Ahora</a>
           </Button>
         </div>
       </div>

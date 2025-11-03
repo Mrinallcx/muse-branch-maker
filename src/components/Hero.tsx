@@ -32,8 +32,8 @@ const Hero = () => {
             <p className="text-muted-foreground mb-6">
               Llama ahora para hablar con nuestros expertos en viajes
             </p>
-            <Button size="lg" className="w-full">
-              Llama Ahora para Reservar
+            <Button size="lg" className="w-full" asChild>
+              <a href="tel:+18882916115">Llama Ahora para Reservar</a>
             </Button>
           </Card>
           

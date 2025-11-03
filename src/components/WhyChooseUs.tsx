@@ -57,8 +57,8 @@ const WhyChooseUs = () => {
                 </p>
               </div>
               
-              <Button size="lg" variant="secondary" className="w-full">
-                Llama Ahora
+              <Button size="lg" variant="secondary" className="w-full" asChild>
+                <a href="tel:+18882916115">Llama Ahora</a>
               </Button>
             </CardContent>
           </Card>

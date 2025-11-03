@@ -25,7 +25,9 @@ const Navigation = () => {
             </a>
           </div>
 
-          <Button size="sm">Llama Ahora</Button>
+          <Button size="sm" asChild>
+            <a href="tel:+18882916115">Llama Ahora</a>
+          </Button>
         </div>
       </div>
     </nav>
