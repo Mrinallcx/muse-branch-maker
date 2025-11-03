@@ -10,7 +10,7 @@ const Navigation = () => {
             <div className="bg-primary rounded-lg p-2">
               <Plane className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-bold text-xl">Easy Bookings</span>
+            <span className="font-bold text-xl">Desta Cando</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
