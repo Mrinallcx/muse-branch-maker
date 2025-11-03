@@ -4,23 +4,23 @@ import { Headphones, DollarSign, Shield, Clock } from "lucide-react";
 const features = [
   {
     icon: Headphones,
-    title: "Expert Assistance",
-    description: "Speak directly with experienced travel agents who understand your needs"
+    title: "Asistencia Experta",
+    description: "Habla directamente con agentes de viajes experimentados que entienden tus necesidades"
   },
   {
     icon: DollarSign,
-    title: "Best Prices",
-    description: "Access to exclusive deals and competitive rates on all major airlines"
+    title: "Mejores Precios",
+    description: "Acceso a ofertas exclusivas y tarifas competitivas en todas las aerolíneas principales"
   },
   {
     icon: Shield,
-    title: "Secure Booking",
-    description: "Safe and secure payment processing with full booking protection"
+    title: "Reserva Segura",
+    description: "Procesamiento de pago seguro y protegido con protección total de reserva"
   },
   {
     icon: Clock,
-    title: "24/7 Support",
-    description: "Round-the-clock customer service for all your travel emergencies"
+    title: "Soporte 24/7",
+    description: "Servicio al cliente las 24 horas para todas tus emergencias de viaje"
   }
 ];
 
@@ -29,9 +29,9 @@ const WhyBookPhone = () => {
     <section id="why" className="py-20 bg-feature-bg">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Why Book Over the Phone?</h2>
+          <h2 className="text-4xl font-bold mb-4">¿Por Qué Reservar por Teléfono?</h2>
           <p className="text-lg text-muted-foreground">
-            Personalized service that makes your travel planning effortless
+            Servicio personalizado que hace que tu planificación de viaje sea sin esfuerzo
           </p>
         </div>
         

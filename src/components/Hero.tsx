@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10 py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Book Your Flight with Just a Call
+            Reserva Tu Vuelo con Solo una Llamada
           </h1>
           <p className="text-xl text-white/90 mb-12">
-            Expert assistance for the best air ticket deals worldwide
+            Asistencia experta para las mejores ofertas de boletos aéreos en todo el mundo
           </p>
           
           <Card className="max-w-md mx-auto p-8 bg-background shadow-2xl">
@@ -30,16 +30,16 @@ const Hero = () => {
               </h2>
             </div>
             <p className="text-muted-foreground mb-6">
-              Call now to speak with our travel experts
+              Llama ahora para hablar con nuestros expertos en viajes
             </p>
             <Button size="lg" className="w-full">
-              Call Now to Book
+              Llama Ahora para Reservar
             </Button>
           </Card>
           
           <div className="mt-8 flex items-center justify-center gap-2 text-white">
             <Clock className="h-5 w-5" />
-            <span className="text-sm">Available 24/7 for your convenience</span>
+            <span className="text-sm">Disponible 24/7 para tu conveniencia</span>
           </div>
         </div>
       </div>

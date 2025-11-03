@@ -3,12 +3,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Check, Phone } from "lucide-react";
 
 const benefits = [
-  "Access to exclusive airline partnerships",
-  "Flexible payment options available",
-  "Multi-city and complex itinerary specialists",
-  "Group booking discounts",
-  "Last-minute booking assistance",
-  "Flight change and cancellation support"
+  "Acceso a asociaciones exclusivas con aerolíneas",
+  "Opciones de pago flexibles disponibles",
+  "Especialistas en itinerarios multiciudad y complejos",
+  "Descuentos en reservas grupales",
+  "Asistencia en reservas de último minuto",
+  "Soporte para cambios y cancelaciones de vuelos"
 ];
 
 const WhyChooseUs = () => {
@@ -17,11 +17,11 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Why Choose Our Service?</h2>
+            <h2 className="text-4xl font-bold mb-6">¿Por Qué Elegir Nuestro Servicio?</h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              As a trusted affiliate partner of major airlines, we provide personalized 
-              travel services at the best value you can find and enjoy. Our experienced agents 
-              handle everything from simple one-way trips to complex multi-destination itineraries.
+              Como socio afiliado de confianza de las principales aerolíneas, proporcionamos servicios 
+              de viaje personalizados al mejor valor que puedes encontrar y disfrutar. Nuestros agentes experimentados 
+              manejan todo, desde viajes sencillos de ida hasta itinerarios complejos de múltiples destinos.
             </p>
             
             <div className="space-y-4">
@@ -39,26 +39,26 @@ const WhyChooseUs = () => {
           <Card className="bg-primary text-primary-foreground">
             <CardContent className="p-10">
               <h3 className="text-3xl font-bold mb-4">
-                Ready to Book Your Flight?
+                ¿Listo para Reservar Tu Vuelo?
               </h3>
               <p className="text-primary-foreground/90 mb-8 leading-relaxed">
-                Our travel experts are standing by to help you find the perfect flight at 
-                the best price.
+                Nuestros expertos en viajes están listos para ayudarte a encontrar el vuelo perfecto al 
+                mejor precio.
               </p>
               
               <div className="bg-white/10 rounded-lg p-6 mb-8">
-                <p className="text-sm text-primary-foreground/80 mb-2">Call us now at</p>
+                <p className="text-sm text-primary-foreground/80 mb-2">Llámanos ahora al</p>
                 <div className="flex items-center gap-2 mb-4">
                   <Phone className="h-6 w-6" />
                   <span className="text-3xl font-bold">+1 (888) 291-6115</span>
                 </div>
                 <p className="text-sm text-primary-foreground/80">
-                  Available 24 hours a day / 7 days a week
+                  Disponible 24 horas al día / 7 días a la semana
                 </p>
               </div>
               
               <Button size="lg" variant="secondary" className="w-full">
-                Call Now
+                Llama Ahora
               </Button>
             </CardContent>
           </Card>

@@ -15,17 +15,17 @@ const Navigation = () => {
           
           <div className="hidden md:flex items-center gap-8">
             <a href="#why" className="text-sm font-medium hover:text-primary transition-colors">
-              Why Call
+              Por Qué Llamar
             </a>
             <a href="#how" className="text-sm font-medium hover:text-primary transition-colors">
-              How It Works
+              Cómo Funciona
             </a>
             <a href="#destinations" className="text-sm font-medium hover:text-primary transition-colors">
-              Destinations
+              Destinos
             </a>
           </div>
 
-          <Button size="sm">Call Now</Button>
+          <Button size="sm">Llama Ahora</Button>
         </div>
       </div>
     </nav>

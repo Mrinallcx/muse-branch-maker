@@ -32,9 +32,9 @@ const PopularDestinations = () => {
     <section id="destinations" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Popular Destinations</h2>
+          <h2 className="text-4xl font-bold mb-4">Destinos Populares</h2>
           <p className="text-lg text-muted-foreground">
-            Call us to book flights to these amazing destinations and more
+            Llámanos para reservar vuelos a estos increíbles destinos y más
           </p>
         </div>
         
