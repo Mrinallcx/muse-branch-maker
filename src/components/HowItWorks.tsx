@@ -33,7 +33,7 @@ const HowItWorks = () => {
         
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {steps.map((step, index) => (
-            <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/20 text-center">
+            <Card key={index} className="bg-white/20 backdrop-blur-sm border-white/30 text-center hover:bg-white/25 transition-colors">
               <CardContent className="pt-10 pb-10">
                 <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <step.icon className="h-10 w-10 text-primary" />
